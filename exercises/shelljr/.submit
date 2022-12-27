@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC216-Fall2022
+#  Project E5: Mini Shell Practice
+
+courseName=CMSC216-Fall2022
+semester=202208
+projectNumber=E5
+courseKey=f92946cb9003f40d
+authentication.type=cas
+baseURL=https://submit.cs.umd.edu:443/fall2022
+submitURL=https://submit.cs.umd.edu:443/fall2022/eclipse/SubmitProjectViaEclipse

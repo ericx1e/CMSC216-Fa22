@@ -1,0 +1,4 @@
+
+cat fibonacci_driver.s fibonacci.s > fibonacci_prog.s
+spim -file fibonacci_prog.s | tail -n +2
+rm -f fibonacci_prog.s

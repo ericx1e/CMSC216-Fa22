@@ -1,0 +1,3 @@
+cat reverse_prefix_sum_driver.s reverse_prefix_sum.s > reverse_prefix_sum_prog.s
+spim -file reverse_prefix_sum_prog.s | tail -n +2
+rm -f reverse_prefix_sum_prog.s

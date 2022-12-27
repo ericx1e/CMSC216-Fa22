@@ -1,0 +1,9 @@
+#!/bin/tcsh -f
+
+# CMSC 216, Spring 2020, E4_Mips
+# mash_test
+#
+
+cat mash_driver.s mash.s > mash_prog.s
+spim -file mash_prog.s < mash_test1.input | tail -n +2
+rm -f mash_prog.s

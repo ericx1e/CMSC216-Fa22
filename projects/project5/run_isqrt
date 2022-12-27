@@ -1,0 +1,3 @@
+cat isqrt_driver.s isqrt.s > isqrt_prog.s
+spim -file isqrt_prog.s | tail -n +2
+rm -f isqrt_prog.s

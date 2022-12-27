@@ -1,0 +1,9 @@
+#!/bin/tcsh -f
+
+# CMSC 216, Spring 2020, E4_Mips
+# max1_test
+#
+
+cat max_driver.s max.s > max_prog.s
+spim -file max_prog.s < max_test2.input | tail -n +2
+rm -f max_prog.s
